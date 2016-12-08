@@ -1,0 +1,36 @@
+[ 2016-12-07T19:49:51+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1305:FUNCTION thinkphp.LEMT does not exist
+ [ SQL语句 ] : SELECT `id`,LEMT(user,3) FROM `think_user` 
+
+[ 2016-12-07T20:03:44+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1146:Table 'thinkphp.think_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_info`
+
+[ 2016-12-07T20:06:21+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1146:Table 'thinkphp.think_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_info`
+
+[ 2016-12-07T20:09:14+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1146:Table 'thinkphp.think_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_info`
+
+[ 2016-12-07T20:11:54+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1146:Table 'thinkphp.think_info' doesn't exist
+ [ SQL语句 ] : SELECT a.id,b.id FROM `think_user` `a`,`think_info` `b` 
+
+[ 2016-12-07T20:26:29+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1146:Table 'thinkphp.think_info' doesn't exist
+ [ SQL语句 ] : SELECT a.id,b.id FROM `think_user` `a`,`think_info` `b` 
+
+[ 2016-12-07T20:58:34+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1305:FUNCTION thinkphp.max2 does not exist
+ [ SQL语句 ] : SELECT `user`,max2(id) FROM `think_user` GROUP BY id 
+
+[ 2016-12-07T21:07:53+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1066:Not unique table/alias: 'think_user'
+ [ SQL语句 ] : SELECT * FROM `think_user` INNER JOIN think_user ON think_info.id=think_user.id  
+
+[ 2016-12-07T21:12:02+08:00 ] ::1 /thinkphp3/Home/User/model
+ERR: 1146:Table 'thinkphp.think_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_user` UNION SELECT * FROM think_info
+

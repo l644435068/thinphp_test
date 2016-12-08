@@ -1,0 +1,6 @@
+[ 2016-12-08T02:52:31+08:00 ] ::1 /thinkphp3/Home/Admin
+ERR: Class 'Home\Controller\Model' not found
+
+[ 2016-12-08T02:52:48+08:00 ] ::1 /thinkphp3/Home/Admin
+ERR: Call to a member function select() on null
+
